@@ -1,0 +1,30 @@
+.app__menuitem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.app__menuitem-items{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.app__menuitem-items_name{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    column-gap: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.app__menuitem-items_name div{
+    width: 4rem;
+    height: 0.1rem;
+    background: var(--color-grey);
+}
