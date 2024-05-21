@@ -1,0 +1,123 @@
+.app__chef{
+    flex-direction: row;
+    width: 100%;
+    column-gap: 4rem;
+}
+
+.app__chef-img{
+    padding: 3rem;
+}
+
+.app__chef-img img{
+    width: 400px;
+    height: 500px;
+}
+
+.app__chef-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.app__chef-content-paragraph{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+
+.app__chef-content-paragraph p{
+    font-style: italic;
+}
+
+.app__chef-content_first{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.app__chef-content_first img{
+    width: 30px;
+    height: 30px;
+}
+
+.app__chef-content_first p{
+    font-style:italic;  
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.app__chef-content_title{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+
+.app__chef-content-name{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.app__chef-content-sign{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.app__chef-content-sign img{
+    width: 300px;
+    height: 120px;
+}
+
+#chef__name{
+    font-weight: lighter;
+    font-size: 45px;
+}
+
+#chef__title p{
+    color: var(--color-grey);
+    margin-left: 1rem;
+}
+
+#chef__founder{
+    color: var(--color-grey);
+}
+
+#chef__word{
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.app__chef-content-paragraph p{
+    color: var(--color-grey);
+}
+
+@media screen and (max-width:1025px){
+
+    .app__chef{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .app__chef-img{
+        display: none;
+    }
+
+    .app__chef-img{
+        width: 50px;
+        height: 50px;
+    }
+}

@@ -39,7 +39,11 @@ const SpecialMenu = () => (
           
     </div>
     <div className='app__specialmenu-button'>
-      <button className="custom__button" type='button'>View More</button>
+      <button className="custom__button app__specialmenu-button_btn" type='button'>View More</button>
+      <div className='app__specialmenu-button_img'>
+        <img src={images.menu} alt="" />
+      </div>
+      <button className='custom__button app__specialmenu-button_btn2' type='button'>View More</button>
     </div>
   </div>
 );
