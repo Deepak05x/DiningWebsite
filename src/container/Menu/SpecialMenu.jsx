@@ -4,7 +4,7 @@ import './SpecialMenu.css';
 import  MenuItem  from '../../components/Menuitem/MenuItem';
 
 const SpecialMenu = () => (
-  <div className='app__specialmenu section__padding flex__center'>
+  <div className='app__specialmenu section__padding flex__center' id='menu'>
     <div className='app__specialmenu-content flex__center'>
         <p className='p__cormorant'>Menu that fits you palatte</p>
         <img src={images.spoon} alt="spoon" />

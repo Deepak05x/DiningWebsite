@@ -54,3 +54,22 @@ a {
             transform: translateY(0);
   }
 }
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--color-black); 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color-golden); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
